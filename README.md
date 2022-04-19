@@ -160,7 +160,7 @@ The user interacts with a Telegram chatbot (Rossmann bot API). When asked about 
 
 Below is an app demo (*chabot id **@RossmannSaleBot***):
 
-![bot](/img/demo-telegram-bot.gif)
+![bot](/img/telegram-bot.gif)
 
 
 ## Conclusion
