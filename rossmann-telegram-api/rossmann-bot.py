@@ -7,25 +7,25 @@ import requests
 from flask import Flask, request, Response
 
 # parameters
-token = '5228644754:AAHXhIFLEx1HDC4rXs5GSv6f0Cr-p3CBR2o'
+token = TOKEN
 
 # # info about the boot
-# https://api.telegram.org/bot5228644754:AAHXhIFLEx1HDC4rXs5GSv6f0Cr-p3CBR2o/getMe
+# https://api.telegram.org/bot[token]/getMe
 
 # # get updates
-# https://api.telegram.org/bot5228644754:AAHXhIFLEx1HDC4rXs5GSv6f0Cr-p3CBR2o/getUpdates
+# https://api.telegram.org/bot[token]/getUpdates
 
 # # webhook
-# https://api.telegram.org/bot5228644754:AAHXhIFLEx1HDC4rXs5GSv6f0Cr-p3CBR2o/setWebhook?url=https://6073a2e078bf61.lhrtunnel.link
+# https://api.telegram.org/bot[token]/setWebhook?url=https://6073a2e078bf61.lhrtunnel.link
 
 # # webhook heroku
-# https://api.telegram.org/bot5228644754:AAHXhIFLEx1HDC4rXs5GSv6f0Cr-p3CBR2o/setWebhook?url=https://lz-rossmann-telegram-bot.herokuapp.com/
+# https://api.telegram.org/bot[token]/setWebhook?url=https://lz-rossmann-telegram-bot.herokuapp.com/
 
 # # delete webhook
-# https://api.telegram.org/bot5228644754:AAHXhIFLEx1HDC4rXs5GSv6f0Cr-p3CBR2o/deleteWebhook
+# https://api.telegram.org/bot[token]/deleteWebhook
 
 # # send message
-# https://api.telegram.org/bot5228644754:AAHXhIFLEx1HDC4rXs5GSv6f0Cr-p3CBR2o/sendMessage?chat_id=640276497&text=Hi Laissa, I am doing good, tks!
+# https://api.telegram.org/bot[token]/sendMessage?chat_id=640276497&text=Hi Laissa, I am doing good, tks!
 
 
 def parse_message( message ):
