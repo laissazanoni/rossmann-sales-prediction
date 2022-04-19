@@ -2,12 +2,14 @@
 
 In this project, CRISP-DM methodology was applied to solve a fictitious business problem, using a real dataset from Kaggle, the [Rossman Store Sales](https://www.kaggle.com/c/rossmann-store-sales/data) challenge dataset.
 
+<img src=img/rossmann.jpg align="left" height="400" width="2000" >
+<br/>
+
+
 ## Business Problem
 Rossmann's CFO wants to invest in remodeling some stores. In order to know exactly how much capital he can invest, he needs to know to how much return he will get from stores sales for the next 6 weeks.
 
 **Business Issue:** What is the total sales of each store in the next 6 weeks?
-
-## Business Assumptions
 
 ## Solution Strategy
 To develop this project I used the cyclical development method applied to the CRISP-DM methodology. The main idea of the cyclic method is to be able to finish a CRISP-DM complete  cycle, following all steps below. At each new cycle, all steps are repeated, always looking to improve the solution in relation to the previous cycle.
@@ -158,7 +160,7 @@ The user interacts with a Telegram chatbot (Rossmann bot API). When asked about 
 
 Below is an app demo (*chabot id **@RossmannSaleBot***):
 
-![bot](/img/demo-telegram-bot.gif) <br />
+![bot](/img/demo-telegram-bot.gif)
 
 
 ## Conclusion
