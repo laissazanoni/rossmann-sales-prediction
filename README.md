@@ -7,7 +7,7 @@ In this project, CRISP-DM methodology was applied to solve a fictitious business
 
 
 ## Business Problem
-Rossmann's CFO wants to invest in remodeling some stores. In order to know exactly how much capital he can invest, he needs to know to how much return he will get from stores sales for the next 6 weeks.
+Rossmann's CFO wants to invest in remodeling some stores. In order to known exactly how much capital he can invest, he needs to know how much return he will get from stores sales for the next 6 weeks.
 
 **Business Issue:** What is the total sales of each store in the next 6 weeks?
 
